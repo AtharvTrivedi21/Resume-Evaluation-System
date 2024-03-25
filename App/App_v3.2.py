@@ -30,6 +30,7 @@ from PIL import Image
 # pre stored data for prediction purposes
 from Courses1 import ds_course,web_course,android_course,ios_course,uiux_course,resume_videos,interview_videos, swengg_course, blockchain_course, aiml_course, cybersec_course, dataengg_course
 import nltk
+from nltk.corpus import stopwords
 nltk.download('stopwords')
 
 ###### Preprocessing functions ######
